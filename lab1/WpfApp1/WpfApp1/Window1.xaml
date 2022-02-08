@@ -1,0 +1,39 @@
+﻿<Window x:Name="First_Window" x:Class="WpfApp1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800" Background="#FF79B2B2" Margin="-2,0,0,0" FontFamily="Times New Roman" FontSize="14" Visibility="Visible">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="0.75*"></RowDefinition>
+            <RowDefinition Height="0.75*"></RowDefinition>
+            <RowDefinition Height="0.1*"></RowDefinition>
+            <RowDefinition Height="0.75*"></RowDefinition>
+            <RowDefinition Height="0.1*"></RowDefinition>
+            <RowDefinition Height="0.45*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width ="0.6*"></ColumnDefinition>
+            <ColumnDefinition Width ="1.1*"></ColumnDefinition>
+            <ColumnDefinition Width ="0.15*"></ColumnDefinition>
+            <ColumnDefinition Width ="1.2*"></ColumnDefinition>
+            <ColumnDefinition Width ="0.05*"></ColumnDefinition>
+            <ColumnDefinition Width ="1.5*"></ColumnDefinition>
+            <ColumnDefinition Width ="0.3*"></ColumnDefinition>
+            <ColumnDefinition Width ="0.6*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="InputBox" Grid.Column="1" Grid.Row ="3" FontSize="35" Text="Enter text:" TextWrapping="Wrap"   Background="#FF4D7C90" BorderBrush = "#FF4D7C90" KeyUp="TextBox_KeyUp" MouseEnter="InputBox_MouseEnter" MouseLeave="InputBox_MouseLeave" />
+        <Button x:Name="Save" FontStretch="UltraExpanded" Content="Save student"  Grid.Column="3" Grid.Row ="3" FontSize="30" Click="Save_Click" Background="#FFCE3A3A" />
+        <Button x:Name="Delete" Content="Delete student"   Grid.Column="5" Grid.Row ="3" Background="#FFCE3A3A" FontSize="30" Click="Delete_Click_1"/>
+        <TextBlock Grid.Row= "1" Grid.Column="1" Grid.ColumnSpan="3" FontSize="30" Background="#FF4D7C90"><Run Text="This is first window"/><LineBreak/><Run/></TextBlock>
+        <TextBlock Grid.Row= "7" FontStretch="Expanded" Grid.Column="1" Grid.ColumnSpan="3" FontSize="19.5"  Background="#FF4D7C90"><Run Text="Write like: full name +phone_number email"/><LineBreak/><Run/></TextBlock>
+        <Button x:Name="GoMain" Grid.Row ="5" Grid.Column="5" FontSize="30" Grid.ColumnSpan="2" Grid.RowSpan="3" Content="Go to main window"  Click="Exit_Click" Background="#FFCE3A3A"/>
+        <Label x:Name="Output" Content="" Grid.Row ="5"  Grid.ColumnSpan="3" Grid.Column="1" FontSize ="30"  Background="#FF4D7C90" />
+    </Grid>
+</Window>
