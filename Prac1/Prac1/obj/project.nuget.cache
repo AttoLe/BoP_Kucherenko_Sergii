@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "cFQtYhOI7Bn7/AREoXKiLrA6u7TgV6OmVRyi5UEWL7WmD7gAZO0MxuGPuqC4OJjMhV5c8oSFaFgZ4hMG5nNRMg==",
+  "success": true,
+  "projectFilePath": "E:\\study\\visual_st_projects\\Prac1\\Prac1\\Prac1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sergi\\.nuget\\packages\\makeshift.web.datavisualization.core\\0.0.2\\makeshift.web.datavisualization.core.0.0.2.nupkg.sha512",
+    "C:\\Users\\sergi\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\sergi\\.nuget\\packages\\microsoft.win32.systemevents\\4.5.0\\microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+    "C:\\Users\\sergi\\.nuget\\packages\\system.drawing.common\\4.5.1\\system.drawing.common.4.5.1.nupkg.sha512",
+    "C:\\Users\\sergi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

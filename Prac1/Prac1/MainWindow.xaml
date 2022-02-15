@@ -1,0 +1,37 @@
+﻿<Window x:Class="Prac1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prac1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="125" Width="650">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.75*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="0.75*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="0.75*"/>
+            <RowDefinition Height="0.5*"/>
+        </Grid.RowDefinitions>
+        <Label Content=" Система автентифікації користувача по клавіатурному почерку" 
+               Grid.Column="1" Grid.ColumnSpan="5" Grid.Row="1" FontSize="18"  FontFamily="Arial"/>
+
+        <Button Name="StudyMode" Content="Рeжим навчання" FontSize="18" FontFamily="Arial" Background="LightGray"
+                Grid.Column="1" Grid.Row="2" Click="StudyMode_Click"/>
+
+        <Button Name="LoginMode" Content="Рeжим перевірки" FontSize="18" FontFamily="Arial" Background="LightGray"
+                Grid.Column="3" Grid.Row="2" Click="LoginMode_Click"/>
+
+        <Button Name="Exit" Content="Вихід із системи" FontSize="18" FontFamily="Arial" Background="LightGray"
+                Grid.Column="5" Grid.Row="2" Click="Exit_Click"/>
+    </Grid>
+</Window>
