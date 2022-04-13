@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <RootNamespace>prac2._1</RootNamespace>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="11.0.1" />
+      <PackageReference Include="LiveCharts.NetCore" Version="0.9.7" />
+      <PackageReference Include="LiveCharts.WinForms" Version="0.9.7.1" />
+      <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+      <PackageReference Include="LiveCharts.Wpf.Core" Version="0.9.8" />
+      <PackageReference Include="LiveCharts.Wpf.NetCore3" Version="0.9.7" />
+    </ItemGroup>
+
+</Project>
