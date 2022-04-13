@@ -189,7 +189,7 @@ namespace lab2
     public partial class Window1 : Window
     {
         static string res = "";
-        static string path = @"E:\study\DATA.txt";
+        static string path = @"D:\temporary files";
         static Label Output;
         TextBox Inputbox = new TextBox();
 

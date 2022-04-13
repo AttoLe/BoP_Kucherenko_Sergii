@@ -8,19 +8,24 @@
     "net5.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\sergi\\.nuget\\packages\\": {}
+    "C:\\Users\\sergi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\study\\visual_st_projects\\lab2\\lab2\\lab2.csproj",
+      "projectUniqueName": "D:\\BoP repository\\BoP_Kucherenko_Sergii\\lab2\\lab2\\lab2.csproj",
       "projectName": "lab2",
-      "projectPath": "E:\\study\\visual_st_projects\\lab2\\lab2\\lab2.csproj",
+      "projectPath": "D:\\BoP repository\\BoP_Kucherenko_Sergii\\lab2\\lab2\\lab2.csproj",
       "packagesPath": "C:\\Users\\sergi\\.nuget\\packages\\",
-      "outputPath": "E:\\study\\visual_st_projects\\lab2\\lab2\\obj\\",
+      "outputPath": "D:\\BoP repository\\BoP_Kucherenko_Sergii\\lab2\\lab2\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\sergi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -55,12 +60,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.12, 5.0.12]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -69,7 +68,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
