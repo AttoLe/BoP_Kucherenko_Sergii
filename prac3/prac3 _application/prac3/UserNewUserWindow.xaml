@@ -1,0 +1,77 @@
+﻿<Window x:Class="prac3.UserNewUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:prac3"
+        mc:Ignorable="d"
+        Height="350" Width="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="1.25*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="1.25*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="1.25*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.2*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="0.2*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="0.2*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="0"
+                Content = "Реєстрація нового користувача"
+                Style="{StaticResource Title}"/>
+
+        <Label Grid.Column="1" Grid.Row="1"
+               Content = "Ім'я користувача:"
+               Style="{StaticResource data}"/>
+        <TextBox Name="name" Grid.Column="3" Grid.Row="1" 
+                 Style="{StaticResource input}"/>
+
+        <Label Grid.Column="1" Grid.Row="3"
+               Content = "Прізвище користувача:"
+               Style="{StaticResource data}"/>
+        <TextBox Name="surname" Grid.Column="3" Grid.Row="3" 
+                 Style="{StaticResource input}"/>
+
+        <Label Grid.Column="1" Grid.Row="5"
+               Content = "Логін користувача:"
+               Style="{StaticResource data}"/>
+        <TextBox Name="login" Grid.Column="3" Grid.Row="5" 
+                 Style="{StaticResource input}"
+                 TextChanged="login_changed"/>
+
+        <Label Grid.Column="1" Grid.Row="7"
+               Content = "Пароль користувача:"
+               Style="{StaticResource data}"/>
+        <PasswordBox Name="password"  Grid.Column="3" Grid.Row="7"/>
+
+        <Label Grid.Column="1" Grid.Row="9"
+               Content = "Повторити пароль:"
+               Style="{StaticResource data}"/>
+        <PasswordBox Name="newpassword"  Grid.Column="3" Grid.Row="9"/>
+
+        <Button Name = "Authorize" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="11"
+                Content=" Зареєструватись " HorizontalAlignment="Center"
+                Click="Authorize_Click"/>
+
+        <Button Name = "ToUserMainWindow" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="13"
+                Content="До основного вікна користувача"
+                Click="ToUserMainWindow_Click"/>
+    </Grid>
+</Window>
+

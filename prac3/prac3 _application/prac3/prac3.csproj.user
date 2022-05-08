@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AdminControlWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminLoginWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminNewUserWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminPasswordWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="InfWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainAdmin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserAuthorizationWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserMainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserNewUserWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

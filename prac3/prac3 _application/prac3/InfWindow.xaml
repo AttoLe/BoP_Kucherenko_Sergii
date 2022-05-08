@@ -1,0 +1,50 @@
+﻿<Window x:Class="prac3.InfWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:prac3"
+        mc:Ignorable="d"
+        Height="300" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.2*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="0.2*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Column="1" Grid.Row="0"
+               Content = "Інформація про розробника"
+               Style="{StaticResource Title}"/>
+
+        <Label Grid.Column="1" Grid.Row="1"
+               Content = "ПІБ: Кучеренко Сергій Олегович"
+               Style="{StaticResource data2}"/>
+
+        <Label Grid.Column="1" Grid.Row="2"
+               Content = "Дата народження: 06.08.2004"
+               Style="{StaticResource data2}"/>
+
+        <Label Grid.Column="1" Grid.Row="3"
+               Content = "Місце проживання: місто Буча, Україна"
+               Style="{StaticResource data2}"/>
+
+        <Label Grid.Column="1" Grid.Row="4"
+               Content = "Місце навчання: КПІ, Факультет прикладной математики, группа КП-11"
+               Style="{StaticResource data2}"/>
+
+        <Button Name = "exit" Grid.Row="6" Grid.Column="1"
+                Content="До основного меню"
+                Click="ToMainWindow"/>
+    </Grid>
+</Window>
