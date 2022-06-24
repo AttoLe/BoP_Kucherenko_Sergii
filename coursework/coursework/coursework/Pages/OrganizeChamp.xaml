@@ -1,0 +1,38 @@
+﻿<Page x:Class="coursework.Pages.OrganizeChamp"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:coursework.Pages"
+      mc:Ignorable="d">
+    <Grid Name = "grid" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions> 
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Label Name = "info" Grid.Row="0" Grid.Column="0"
+               Style="{StaticResource SubLabel}"/>
+        
+        <Button Name = "ToQueries" Grid.Row="1" Grid.Column="2" Content="ToQueries"/>
+        
+        <Label Grid.Row="3" Grid.Column="0" Content="Future matches"
+               Style="{StaticResource SubLabel}" VerticalContentAlignment="Center"/>
+        
+        <TextBlock Name = "inf" Grid.Row="3" Grid.RowSpan ="2" Grid.Column="2"
+                   Style="{StaticResource smol}"/>
+        
+        <DatePicker Name = "TimeSkip" Grid.Row="5" Grid.Column="2"/>
+        
+    </Grid>
+</Page>
